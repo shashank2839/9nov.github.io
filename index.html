@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="9nov.css">
+    <title>9th november</title>
+    
+</head>
+<body>
+    <div class="main">
+    <div class="best">
+        <h3>Question 1</h3>
+        <p>
+            Calculate the volume and surface area of the cylinder
+        </p>
+        
+        <input id="cylinderHeight" type="number" placeholder="Enter Height">
+        <input id="cylinderRadius" type="number" placeholder="Enter Radius">
+        <br>
+        <button onclick="VolumeAndSurfaceArea()">Submit</button>
+        <br>
+        <input id="VolumeAndSurfaceAnswer" type="text" value="0" disabled>
+    </div>
+
+    <div class="best">
+        <h3>Question 2</h3>
+        <p>
+            Calculate Power
+        </p>
+        
+        <input id="voltage" type="number" placeholder="Enter voltage">
+        <input id="current" type="number" placeholder="Enter current">
+        <br>
+        <button onclick="power()">Submit</button>
+        <br>
+        <input id="powerAns" type="text" value="0" disabled>
+    </div>
+
+    <div class="best">
+        <h3>Question 3</h3>
+        <p>
+            I have a bucket containing an amount of navy blue pain
+            <br>
+            and I'd like to paint as many walls as possible.
+            <br>
+            Create a function that returns the number of complete
+            <br>
+            walls that I can paint, before I need to head to the shops to buy more.
+        </p>
+        
+        <input id="nn" type="number" placeholder="value of n">
+        <input id="ww" type="number" placeholder="value of w">
+        <input id="hh" type="number" placeholder="value of h">
+        <br>
+        <button onclick="Wall()">Submit</button>
+        <br>
+        <input id="wallAnswer" type="text" value="0" disabled>
+    </div>
+</div>
+    
+    <script src="9nov.js"></script>
+</body>
+</html>
