@@ -3,6 +3,7 @@ function VolumeAndSurfaceArea(){
     let radius= document.getElementById("cylinderRadius").value;
     
     document.getElementById("VolumeAndSurfaceAnswer").value = 3.14*height*radius;
+    document.getElementById("Volume").value = 3.14*height*radius*radius;
 }
 
 function power(){
